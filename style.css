@@ -1,12 +1,13 @@
 /* Style Settings */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swa');
 :root {
-    --accentColor: #2d2d2d;
+    --accentColor: #35363a;
     --font: 'Ubuntu', sans-serif;
 }
 
 body {
-    background-color: #252525;
+    background-color: #202124;
+    
 }
 
 #userPhoto{
@@ -25,6 +26,7 @@ body {
     font-size: 2rem;
     font-weight: 200;
     line-height: 1.25;
+    margin-bottom: 4rem;
     display: block;
     font-family: var(--font);
     width: auto;
@@ -50,7 +52,6 @@ body {
 .footer:hover{
     color: rgb(255, 255, 255);
     transition: 0.5s;
-
 }
 
 #links{
@@ -59,9 +60,10 @@ body {
     display: block;
     margin: 27px auto;
 }
+
 .link{
     display: block;
-    background-color: #2e2e2e;
+    background-color: #2c2c2c;
     color: #a2a2a2;
     font-family: var(--font);
     border-radius: 40px;
@@ -75,10 +77,27 @@ body {
 }
 
 .link:hover{
-    background-color: #424141;
+    background-color: #363636;
     transition: .5s;
     color: #ffffff;
     box-shadow: 0 0 31px rgba(0, 0, 0, 0.247); 
     font-weight: 100;
 }
+/* Colors for social links*/
 
+.hvr-grow {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+
+  /*STOLEN CODE*/
+  
