@@ -3,6 +3,7 @@
 :root {
     --accentColor: #35363a;
     --font: 'Ubuntu', sans-serif;
+    font-display: swap;
 }
 
 body {
